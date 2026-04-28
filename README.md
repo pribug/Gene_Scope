@@ -245,7 +245,7 @@ GeneScope/
 \### 1. Clone the repository
 
 
-
+https://github.com/pribug/Gene_Scope/tree/main
 
 
 \### 2. Install dependencies
@@ -317,24 +317,6 @@ Priyam Tripathi
 \- All analyses are dynamically updated based on selected filters  
 
 \- This tool is intended for exploratory analysis and research use  
-
-
-
-\---
-
-
-
-\## Future Improvements
-
-
-
-\- Integration of gene annotation and pathway analysis  
-
-\- Interactive selection of genes directly from plots  
-
-\- Performance optimization for large-scale datasets  
-
-\- Expansion to additional transcriptomic datasets  
 
 
 
