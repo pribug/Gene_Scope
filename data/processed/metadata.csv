@@ -1,0 +1,162 @@
+Sample,Brain_region,Cell_type,Condition,Sex
+GSM119615,Entorhinal Cortex,Layer III neurons,Control,Male
+GSM119616,Entorhinal Cortex,Layer III neurons,Control,Male 
+GSM119617,Entorhinal Cortex,Layer III neurons,Control,Male 
+GSM119618,Entorhinal Cortex,Layer III neurons,Control,Male 
+GSM119619,Entorhinal Cortex,Layer III neurons,Control,Female 
+GSM119620,Entorhinal Cortex,Layer III neurons,Control,Male 
+GSM119621,Entorhinal Cortex,Layer III neurons,Control,Male 
+GSM119622,Entorhinal Cortex,Layer III neurons,Control,Male 
+GSM119623,Entorhinal Cortex,Layer III neurons,Control,Male 
+GSM119624,Entorhinal Cortex,Layer III neurons,Control,Female 
+GSM119625,Entorhinal Cortex,Layer III neurons,Control,Female 
+GSM119626,Entorhinal Cortex,Layer III neurons,Control,Male 
+GSM119627,Entorhinal Cortex,Layer III neurons,Control,Male 
+GSM119628,Hippocampus,Layer III neurons,Control,Male 
+GSM119629,Hippocampus,Layer III neurons,Control,Male 
+GSM119630,Hippocampus,Layer III neurons,Control,Male 
+GSM119631,Hippocampus,Layer III neurons,Control,Female 
+GSM119632,Hippocampus,Layer III neurons,Control,Male 
+GSM119633,Hippocampus,Layer III neurons,Control,Male 
+GSM119634,Hippocampus,Layer III neurons,Control,Male 
+GSM119635,Hippocampus,Layer III neurons,Control,Male 
+GSM119636,Hippocampus,Layer III neurons,Control,Male 
+GSM119637,Hippocampus,Layer III neurons,Control,Female 
+GSM119638,Hippocampus,Layer III neurons,Control,Female 
+GSM119639,Hippocampus,Layer III neurons,Control,Male 
+GSM119640,Hippocampus,Layer III neurons,Control,Male 
+GSM119641,Medial Temporal Gyrus,Layer III neurons,Control,Male 
+GSM119642,Medial Temporal Gyrus,Layer III neurons,Control,Male 
+GSM119643,Medial Temporal Gyrus,Layer III neurons,Control,Female 
+GSM119644,Medial Temporal Gyrus,Layer III neurons,Control,Male 
+GSM119645,Medial Temporal Gyrus,Layer III neurons,Control,Male 
+GSM119646,Medial Temporal Gyrus,Layer III neurons,Control,Male 
+GSM119647,Medial Temporal Gyrus,Layer III neurons,Control,Male 
+GSM119648,Medial Temporal Gyrus,Layer III neurons,Control,Female 
+GSM119649,Medial Temporal Gyrus,Layer III neurons,Control,Female 
+GSM119650,Medial Temporal Gyrus,Layer III neurons,Control,Female 
+GSM119651,Medial Temporal Gyrus,Layer III neurons,Control,Male 
+GSM119652,Medial Temporal Gyrus,Layer III neurons,Control,Male 
+GSM119653,Posterior Cingulate Cortex,Layer III neurons,Control,Male 
+GSM119654,Posterior Cingulate Cortex,Layer III neurons,Control,Male 
+GSM119655,Posterior Cingulate Cortex,Layer III neurons,Control,Female 
+GSM119656,Posterior Cingulate Cortex,Layer III neurons,Control,Male 
+GSM119657,Posterior Cingulate Cortex,Layer III neurons,Control,Male 
+GSM119658,Posterior Cingulate Cortex,Layer III neurons,Control,Male 
+GSM119659,Posterior Cingulate Cortex,Layer III neurons,Control,Male 
+GSM119660,Posterior Cingulate Cortex,Layer III neurons,Control,Male 
+GSM119661,Posterior Cingulate Cortex,Layer III neurons,Control,Female 
+GSM119662,Posterior Cingulate Cortex,Layer III neurons,Control,Female 
+GSM119663,Posterior Cingulate Cortex,Layer III neurons,Control,Female 
+GSM119664,Posterior Cingulate Cortex,Layer III neurons,Control,Male 
+GSM119665,Posterior Cingulate Cortex,Layer III neurons,Control,Male 
+GSM119666,Superior Frontal Gyrus,Layer III neurons,Control,Male 
+GSM119667,Superior Frontal Gyrus,Layer III neurons,Control,Female 
+GSM119668,Superior Frontal Gyrus,Layer III neurons,Control,Female 
+GSM119669,Superior Frontal Gyrus,Layer III neurons,Control,Female 
+GSM119670,Superior Frontal Gyrus,Layer III neurons,Control,Female 
+GSM119671,Superior Frontal Gyrus,Layer III neurons,Control,Male 
+GSM119672,Superior Frontal Gyrus,Layer III neurons,Control,Male 
+GSM119673,Superior Frontal Gyrus,Layer III neurons,Control,Male 
+GSM119674,Superior Frontal Gyrus,Layer III neurons,Control,Male 
+GSM119675,Superior Frontal Gyrus,Layer III neurons,Control,Male 
+GSM119676,Superior Frontal Gyrus,Layer III neurons,Control,Male 
+GSM119677,Primary Visual Cortex,Layer III neurons,Control,Male 
+GSM119678,Primary Visual Cortex,Layer III neurons,Control,Male 
+GSM119679,Primary Visual Cortex,Layer III neurons,Control,Male 
+GSM119680,Primary Visual Cortex,Layer III neurons,Control,Male 
+GSM119681,Primary Visual Cortex,Layer III neurons,Control,Male 
+GSM119682,Primary Visual Cortex,Layer III neurons,Control,Male 
+GSM119683,Primary Visual Cortex,Layer III neurons,Control,Male 
+GSM119684,Primary Visual Cortex,Layer III neurons,Control,Female 
+GSM119685,Primary Visual Cortex,Layer III neurons,Control,Female 
+GSM119686,Primary Visual Cortex,Layer III neurons,Control,Female 
+GSM119687,Primary Visual Cortex,Layer III neurons,Control,Male 
+GSM119688,Primary Visual Cortex,Layer III neurons,Control,Male 
+GSM238763,Entorhinal Cortex,Pyramidal neuron, Alzheimer's Disease,Female 
+GSM238790,Entorhinal Cortex,Pyramidal neuron, Alzheimer's Disease,Female 
+GSM238791,Entorhinal Cortex,Pyramidal neuron, Alzheimer's Disease,Female 
+GSM238792,Entorhinal Cortex,Pyramidal neuron, Alzheimer's Disease,Male 
+GSM238793,Entorhinal Cortex,Pyramidal neuron, Alzheimer's Disease,Female 
+GSM238794,Entorhinal Cortex,Pyramidal neuron, Alzheimer's Disease,Female 
+GSM238795,Entorhinal Cortex,Pyramidal neuron, Alzheimer's Disease,Female 
+GSM238796,Entorhinal Cortex,Pyramidal neuron, Alzheimer's Disease,Male 
+GSM238797,Entorhinal Cortex,Pyramidal neuron, Alzheimer's Disease,Male 
+GSM238798,Entorhinal Cortex,Pyramidal neuron, Alzheimer's Disease,Male 
+GSM238799,Hippocampus,Pyramidal neuron, Alzheimer's Disease,Male 
+GSM238800,Hippocampus,Pyramidal neuron, Alzheimer's Disease,Female 
+GSM238801,Hippocampus,Pyramidal neuron, Alzheimer's Disease,Male 
+GSM238802,Hippocampus,Pyramidal neuron, Alzheimer's Disease,Female 
+GSM238803,Hippocampus,Pyramidal neuron, Alzheimer's Disease,Female 
+GSM238804,Hippocampus,Pyramidal neuron, Alzheimer's Disease,Female 
+GSM238805,Hippocampus,Pyramidal neuron, Alzheimer's Disease,Male 
+GSM238806,Hippocampus,Pyramidal neuron, Alzheimer's Disease,Male 
+GSM238807,Hippocampus,Pyramidal neuron, Alzheimer's Disease,Male 
+GSM238808,Hippocampus,Layer III neurons, Alzheimer's Disease,Male 
+GSM238809,Medial Temporal Gyrus,Pyramidal neuron, Alzheimer's Disease,Female 
+GSM238810,Medial Temporal Gyrus,Pyramidal neuron, Alzheimer's Disease,Male 
+GSM238811,Medial Temporal Gyrus,Pyramidal neuron, Alzheimer's Disease,Male 
+GSM238812,Medial Temporal Gyrus,Pyramidal neuron, Alzheimer's Disease,Male 
+GSM238813,Medial Temporal Gyrus,Pyramidal neuron, Alzheimer's Disease,Male 
+GSM238815,Medial Temporal Gyrus,Pyramidal neuron, Alzheimer's Disease,Male 
+GSM238816,Medial Temporal Gyrus,Pyramidal neuron, Alzheimer's Disease,Male 
+GSM238817,Medial Temporal Gyrus,Pyramidal neuron, Alzheimer's Disease,Female 
+GSM238818,Medial Temporal Gyrus,Pyramidal neuron, Alzheimer's Disease,Male 
+GSM238819,Medial Temporal Gyrus,Pyramidal neuron, Alzheimer's Disease,Female 
+GSM238820,Medial Temporal Gyrus,Pyramidal neuron, Alzheimer's Disease,Female 
+GSM238821,Medial Temporal Gyrus,Pyramidal neuron, Alzheimer's Disease,Male 
+GSM238822,Medial Temporal Gyrus,Layer III neurons, Alzheimer's Disease,Female 
+GSM238823,Medial Temporal Gyrus,Layer III neurons, Alzheimer's Disease,Male 
+GSM238824,Medial Temporal Gyrus,Layer III neurons, Alzheimer's Disease,Male 
+GSM238825,Medial Temporal Gyrus,Layer III neurons, Alzheimer's Disease,Female 
+GSM238826,Posterior Cingulate Cortex,Pyramidal neuron, Alzheimer's Disease,Female 
+GSM238827,Posterior Cingulate Cortex,Pyramidal neuron, Alzheimer's Disease,Male 
+GSM238834,Posterior Cingulate Cortex,Pyramidal neuron, Alzheimer's Disease,Male 
+GSM238835,Posterior Cingulate Cortex,Pyramidal neuron, Alzheimer's Disease,Male 
+GSM238837,Posterior Cingulate Cortex,Pyramidal neuron, Alzheimer's Disease,Male 
+GSM238838,Posterior Cingulate Cortex,Pyramidal neuron, Alzheimer's Disease,Female 
+GSM238839,Posterior Cingulate Cortex,Pyramidal neuron, Alzheimer's Disease,Female 
+GSM238840,Posterior Cingulate Cortex,Pyramidal neuron, Alzheimer's Disease,Male 
+GSM238841,Posterior Cingulate Cortex,Pyramidal neuron, Alzheimer's Disease,Male 
+GSM238842,Superior Frontal Gyrus,Pyramidal neuron, Alzheimer's Disease,Female 
+GSM238843,Superior Frontal Gyrus,Pyramidal neuron, Alzheimer's Disease,Male 
+GSM238844,Superior Frontal Gyrus,Pyramidal neuron, Alzheimer's Disease,Male 
+GSM238845,Superior Frontal Gyrus,Pyramidal neuron, Alzheimer's Disease,Male 
+GSM238846,Superior Frontal Gyrus,Pyramidal neuron, Alzheimer's Disease,Male 
+GSM238847,Superior Frontal Gyrus,Pyramidal neuron, Alzheimer's Disease,Male 
+GSM238848,Superior Frontal Gyrus,Pyramidal neuron, Alzheimer's Disease,Male 
+GSM238851,Superior Frontal Gyrus,Pyramidal neuron, Alzheimer's Disease,Female 
+GSM238854,Superior Frontal Gyrus,Pyramidal neuron, Alzheimer's Disease,Male 
+GSM238855,Superior Frontal Gyrus,Pyramidal neuron, Alzheimer's Disease,Female 
+GSM238856,Superior Frontal Gyrus,Pyramidal neuron, Alzheimer's Disease,Female 
+GSM238857,Superior Frontal Gyrus,Pyramidal neuron, Alzheimer's Disease,Female 
+GSM238858,Superior Frontal Gyrus,Pyramidal neuron, Alzheimer's Disease,Female 
+GSM238860,Superior Frontal Gyrus,Pyramidal neuron, Alzheimer's Disease,Female 
+GSM238861,Superior Frontal Gyrus,Pyramidal neuron, Alzheimer's Disease,Female 
+GSM238862,Superior Frontal Gyrus,Pyramidal neuron, Alzheimer's Disease,Male 
+GSM238863,Superior Frontal Gyrus,Pyramidal neuron, Alzheimer's Disease,Male 
+GSM238864,Superior Frontal Gyrus,Pyramidal neuron, Alzheimer's Disease,Female 
+GSM238865,Superior Frontal Gyrus,Pyramidal neuron, Alzheimer's Disease,Male 
+GSM238867,Superior Frontal Gyrus,Pyramidal neuron, Alzheimer's Disease,Male 
+GSM238868,Superior Frontal Gyrus,Pyramidal neuron, Alzheimer's Disease,Male 
+GSM238870,Superior Frontal Gyrus,Pyramidal neuron, Alzheimer's Disease,Male 
+GSM238871,Superior Frontal Gyrus,Layer III neurons, Alzheimer's Disease,Female 
+GSM238872,Primary Visual Cortex,Pyramidal neuron, Alzheimer's Disease,Female 
+GSM238873,Primary Visual Cortex,Pyramidal neuron, Alzheimer's Disease,Male 
+GSM238874,Primary Visual Cortex,Pyramidal neuron, Alzheimer's Disease,Male 
+GSM238875,Primary Visual Cortex,Pyramidal neuron, Alzheimer's Disease,Male 
+GSM238877,Primary Visual Cortex,Pyramidal neuron, Alzheimer's Disease,Male 
+GSM238941,Primary Visual Cortex,Pyramidal neuron, Alzheimer's Disease,Male 
+GSM238942,Primary Visual Cortex,Pyramidal neuron, Alzheimer's Disease,Female 
+GSM238943,Primary Visual Cortex,Pyramidal neuron, Alzheimer's Disease,Male 
+GSM238944,Primary Visual Cortex,Pyramidal neuron, Alzheimer's Disease,Female 
+GSM238945,Primary Visual Cortex,Pyramidal neuron, Alzheimer's Disease,Female 
+GSM238946,Primary Visual Cortex,Pyramidal neuron, Alzheimer's Disease,Female 
+GSM238947,Primary Visual Cortex,Pyramidal neuron, Alzheimer's Disease,Female 
+GSM238948,Primary Visual Cortex,Pyramidal neuron, Alzheimer's Disease,Male 
+GSM238949,Primary Visual Cortex,Pyramidal neuron, Alzheimer's Disease,Male 
+GSM238951,Primary Visual Cortex,Pyramidal neuron, Alzheimer's Disease,Female 
+GSM238952,Primary Visual Cortex,Pyramidal neuron, Alzheimer's Disease,Male 
+GSM238953,Primary Visual Cortex,Pyramidal neuron, Alzheimer's Disease,Male 
+GSM238955,Primary Visual Cortex,Layer III neurons, Alzheimer's Disease,Male 
+GSM238963,Primary Visual Cortex,Layer III neurons, Alzheimer's Disease,Female 
