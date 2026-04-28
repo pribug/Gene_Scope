@@ -22,9 +22,7 @@ The application provides an accessible interface for analyzing transcriptomic da
 
 
 
-(Add your Streamlit link here after deployment)  
-
-https://your-app-name.streamlit.app
+https://genescope-ge-ad.streamlit.app/
 
 
 
