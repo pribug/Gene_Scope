@@ -25,12 +25,7 @@ st.caption("Explore differential gene expression across brain regions and condit
 
 
 # ============================================================
-#  LOAD + OPTIMISE IN ONE PASS
-#  Changes vs original:
-#  A. float64 → float32 on Expression  (50 % saving on biggest col)
-#  B. Low-cardinality string cols → category dtype (80-90 % saving)
-#  C. Intermediates freed with gc.collect() before returning
-#  D. global_data = data.copy() removed — was a full second copy
+#  LOAD + OPTIMIZATION
 # ============================================================
 @st.cache_data
 def load_data():
@@ -70,16 +65,16 @@ def load_data():
     )
     merged = expression_long.merge(metadata, on="Sample")
 
-    # FIX A: halve memory on the Expression column
+    # halve memory on the Expression column
     merged["Expression"] = merged["Expression"].astype("float32")
 
-    # FIX B: category dtype for repeated string columns
+    # category dtype for repeated string columns
     for col in ["Gene", "Gene Title", "Sample", "Condition",
                 "Sex", "Brain_region", "Cell_type"]:
         if col in merged.columns:
             merged[col] = merged[col].astype("category")
 
-    # FIX C: free intermediates before returning
+    # Free intermediates before returning
     del expression, expression_long, metadata
     gc.collect()
 
@@ -87,7 +82,6 @@ def load_data():
 
 
 data = load_data()
-# FIX D: no global_data = data.copy() — use `data` directly everywhere
 
 
 # ============================================================
@@ -168,14 +162,14 @@ cell_type = st.sidebar.multiselect("Cell Type",    sorted(data["Cell_type"].drop
 condition = st.sidebar.multiselect("Condition",    sorted(data["Condition"].dropna().astype(str).unique()))
 sex       = st.sidebar.multiselect("Sex",          sorted(data["Sex"].dropna().astype(str).unique()))
 
-# FIX E: boolean mask approach — one slice instead of 4 chained DataFrame copies
+# Boolean mask approach
 mask = pd.Series(True, index=data.index)
 if region:    mask &= data["Brain_region"].isin(region)
 if cell_type: mask &= data["Cell_type"].isin(cell_type)
 if condition: mask &= data["Condition"].isin(condition)
 if sex:       mask &= data["Sex"].isin(sex)
 
-filtered = data[mask]   # single slice, no intermediate copies
+filtered = data[mask]   
 
 
 # ============================================================
@@ -292,7 +286,7 @@ if not top_genes_df.empty and rank_mode in top_genes_df.columns:
     st.subheader(f"Top 10 Genes by {rank_mode}")
     st.dataframe(top_display.round(2))
 
-# Volcano — volcano_base pre-computed at startup; only add "Selected" here
+# Volcano — volcano_base pre-computed at startup
 st.subheader("Volcano Plot")
 
 if not volcano_base.empty:
@@ -313,7 +307,7 @@ if not volcano_base.empty:
     fig.add_vline(x= 1, line_dash="dash", line_color="gray")
     fig.add_vline(x=-1, line_dash="dash", line_color="gray")
 
-    # FIX F: use_container_width deprecated in Streamlit 1.57 → use width=
+   
     st.plotly_chart(fig, width="stretch")
 else:
     st.info("Not enough data to render the volcano plot.")
