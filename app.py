@@ -20,7 +20,7 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-st.title("GeneScope: Alzheimer's Gene Expression Dashboard")
+st.title("GeneScope: Alzheimer's Disease Gene Expression Dashboard")
 st.caption("Explore differential gene expression across brain regions and conditions.")
 
 
