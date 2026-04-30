@@ -24,6 +24,7 @@ The application provides an accessible interface for analyzing transcriptomic da
 
 https://genescope-ge-ad.streamlit.app/
 
+App may take 20-30 seconds to load initially as it runs on free cloud hosting.
 
 
 \---
