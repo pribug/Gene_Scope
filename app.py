@@ -25,7 +25,7 @@ st.caption("Explore differential gene expression across brain regions and condit
 
 
 # ============================================================
-#  LOAD + OPTIMIZATION
+#  LOAD
 # ============================================================
 @st.cache_data
 def load_data():
@@ -65,10 +65,8 @@ def load_data():
     )
     merged = expression_long.merge(metadata, on="Sample")
 
-    # halve memory on the Expression column
     merged["Expression"] = merged["Expression"].astype("float32")
 
-    # category dtype for repeated string columns
     for col in ["Gene", "Gene Title", "Sample", "Condition",
                 "Sex", "Brain_region", "Cell_type"]:
         if col in merged.columns:
@@ -85,7 +83,7 @@ data = load_data()
 
 
 # ============================================================
-#  HEAVY PRE-COMPUTATIONS — cached, run once at startup
+#  PRE-COMPUTATIONS run once at startup
 # ============================================================
 @st.cache_data
 def compute_volcano(df: pd.DataFrame) -> pd.DataFrame:
@@ -99,7 +97,7 @@ def compute_volcano(df: pd.DataFrame) -> pd.DataFrame:
             if ctrl_mean != 0:
                 log2fc  = np.log2(ad_mean / ctrl_mean)
                 _, pval = ttest_ind(ctrl, ad)
-                pval    = max(pval, 1e-300)   # guard against log10(0)
+                pval    = max(pval, 1e-300)  
                 records.append({
                     "Gene":    gene_name,
                     "log2FC":  log2fc,
@@ -162,7 +160,7 @@ cell_type = st.sidebar.multiselect("Cell Type",    sorted(data["Cell_type"].drop
 condition = st.sidebar.multiselect("Condition",    sorted(data["Condition"].dropna().astype(str).unique()))
 sex       = st.sidebar.multiselect("Sex",          sorted(data["Sex"].dropna().astype(str).unique()))
 
-# Boolean mask approach
+# Boolean mask
 mask = pd.Series(True, index=data.index)
 if region:    mask &= data["Brain_region"].isin(region)
 if cell_type: mask &= data["Cell_type"].isin(cell_type)
